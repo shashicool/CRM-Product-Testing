@@ -10,7 +10,7 @@
 ![UI Testing](https://img.shields.io/badge/UI%2FUX-Frontend%20Testing-F7B801?style=for-the-badge)
 ![Regression](https://img.shields.io/badge/Regression-Quality%20Checks-9B5DE5?style=for-the-badge)
 
-### A vibrant QA documentation project for testing CRM workflows, frontend usability, business logic, and product stability.
+### Testing CRM workflows, frontend usability, business logic, and product stability.
 
 </div>
 
