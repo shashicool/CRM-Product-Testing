@@ -1,29 +1,26 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=6,11,20,24,30&text=CRM%20Product%20Testing&fontSize=42&fontAlignY=38&desc=QA%20Portfolio%20Project%20%7C%20Manual%20Testing%20%7C%20Frontend%20Validation&descAlignY=60&animation=fadeIn" alt="CRM Product Testing Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=6,11,20,24,30&text=CRM%20Product%20Testing&fontSize=42&fontAlignY=38&desc=Backend%20Validation%20%7C%20Frontend%20Validation%20%7C%20Functional%20Testing&descAlignY=60&animation=fadeIn" alt="CRM Product Testing Banner" />
 
 <br />
 
 ![QA Testing](https://img.shields.io/badge/QA-Product%20Testing-FF6B6B?style=for-the-badge)
-![CRM](https://img.shields.io/badge/CRM-Business%20Workflows-4D96FF?style=for-the-badge)
-![Manual Testing](https://img.shields.io/badge/Manual%20Testing-Test%20Cases-6BCB77?style=for-the-badge)
-![UI Testing](https://img.shields.io/badge/UI%2FUX-Frontend%20Testing-F7B801?style=for-the-badge)
-![Regression](https://img.shields.io/badge/Regression-Quality%20Checks-9B5DE5?style=for-the-badge)
+![Backend Validation](https://img.shields.io/badge/Backend-Validation-00BBF9?style=for-the-badge)
+![Frontend Validation](https://img.shields.io/badge/Frontend-Validation-4D96FF?style=for-the-badge)
+![Functional Testing](https://img.shields.io/badge/Functional-Testing-6BCB77?style=for-the-badge)
+![CRM](https://img.shields.io/badge/CRM-Business%20Workflows-9B5DE5?style=for-the-badge)
 
-### Testing CRM workflows, frontend usability, business logic, and product stability.
+### CRM Product Testing, backend validation, frontend validation, and functional testing.
 
 </div>
 
 ---
 
-## 🌟 Project Snapshot
+## 🌟 Project Overview
 
 This repository showcases a structured **CRM Product Testing** project designed to validate customer relationship management workflows from both **business** and **end-user** perspectives.
 
-The project focuses on testing important CRM modules such as **Login, Leads, Contacts, Accounts, Opportunities, Tasks, Reports, Dashboards, Notifications, and Role-Based Access Control**.
-
-> [!NOTE]
-> This README is designed for a GitHub portfolio/profile presentation and can be used to demonstrate QA testing knowledge, CRM domain understanding, documentation skills, and frontend product validation experience.
+The project covers key CRM modules such as **Login, Leads, Contacts, Accounts, Opportunities, Tasks, Reports, Dashboards, Notifications, and Role-Based Access Control**.
 
 ---
 
@@ -31,16 +28,33 @@ The project focuses on testing important CRM modules such as **Login, Leads, Con
 
 | Goal | Description |
 |---|---|
-| ✅ Validate CRM workflows | Ensure core CRM features work correctly across sales, support, marketing, and admin flows. |
-| 🎨 Improve frontend experience | Check UI consistency, responsiveness, forms, messages, buttons, navigation, and usability. |
+| ✅ Validate CRM workflows | Ensure CRM features work correctly across sales, support, marketing, and admin flows. |
+| 🔗 Verify backend behavior | Check APIs, database updates, server-side validation, permissions, and business rules. |
+| 🎨 Improve frontend experience | Validate UI consistency, responsiveness, forms, messages, buttons, navigation, and usability. |
+| 🧪 Confirm functional accuracy | Test end-to-end user actions and confirm expected system behavior. |
 | 🐞 Identify defects | Report functional, validation, UI, usability, security, and data-related issues clearly. |
-| 🔐 Verify permissions | Confirm users only access features allowed by their role. |
-| 📊 Check business accuracy | Validate dashboards, reports, sales pipeline updates, and customer data mapping. |
-| 🚀 Support release quality | Help improve product stability before production release. |
+| 🚀 Support release quality | Improve product stability before production release. |
 
 ---
 
-## 🧩 Modules Covered
+## 🔍 Validation Scope
+
+<div align="center">
+
+| 🔗 Backend Validation | 🎨 Frontend Validation | 🧪 Functional Testing |
+|---|---|---|
+| API response verification | UI layout and alignment | Login and authentication flow |
+| Database record validation | Forms and field validation | Lead creation and conversion |
+| Business rule validation | Buttons, links, and actions | Contact and account management |
+| Role-based access checks | Navigation and page routing | Opportunity pipeline updates |
+| Error handling verification | Responsiveness across devices | Task, reminder, and report workflows |
+| Data integrity checks | Toasts, alerts, loaders, and empty states | End-to-end CRM scenario execution |
+
+</div>
+
+---
+
+## 🧩 CRM Modules Covered
 
 <div align="center">
 
@@ -58,7 +72,7 @@ The project focuses on testing important CRM modules such as **Login, Leads, Con
 
 ---
 
-## 🎨 Frontend UI Testing Focus
+## 🎨 Frontend Validation Checklist
 
 | Area | What Was Tested |
 |---|---|
@@ -72,22 +86,59 @@ The project focuses on testing important CRM modules such as **Login, Leads, Con
 
 ---
 
-## 🧪 Testing Types Performed
+## 🔗 Backend Validation Checklist
+
+| Area | What Was Tested |
+|---|---|
+| **API Responses** | Status codes, response body, response time, error messages, and required fields. |
+| **Database Updates** | Correct data creation, updates, deletes, duplicate prevention, and record mapping. |
+| **Business Rules** | Lead assignment rules, opportunity stage logic, report calculations, and required approvals. |
+| **Role-Based Access** | Admin, manager, sales user, and restricted user permissions. |
+| **Data Integrity** | Accurate relationship between leads, contacts, accounts, opportunities, and tasks. |
+| **Error Handling** | Backend validation messages, invalid request handling, and failed operation responses. |
+| **Security Basics** | Unauthorized access checks, session behavior, and restricted page/API access. |
+
+---
+
+## 🧪 Functional Testing Checklist
+
+| Workflow | Functional Validation |
+|---|---|
+| **Login** | User can log in, log out, and receive proper validation for invalid credentials. |
+| **Leads** | User can create, edit, search, assign, and convert leads. |
+| **Contacts** | User can add, update, filter, and link contacts to accounts. |
+| **Accounts** | User can create accounts and view related contacts, opportunities, and activities. |
+| **Opportunities** | User can update sales stages, values, expected close dates, and pipeline status. |
+| **Tasks** | User can create follow-ups, set reminders, update status, and view activity history. |
+| **Reports** | User can generate reports, export data, and validate displayed metrics. |
+| **Admin** | Admin can manage users, roles, permissions, and settings. |
+
+---
+
+## 🧠 Testing Types Performed
 
 ```mermaid
 mindmap
-  root((CRM Testing))
+  root((CRM Product Testing))
+    Backend Validation
+      API Responses
+      Database Records
+      Business Rules
+      Role Permissions
+      Data Integrity
+    Frontend Validation
+      Layout
+      Forms
+      Navigation
+      Responsiveness
+      Alerts and Messages
     Functional Testing
       Login
       Leads
       Contacts
       Opportunities
+      Tasks
       Reports
-    UI and Usability Testing
-      Layout
-      Forms
-      Navigation
-      Responsiveness
     Regression Testing
       Retesting Fixed Bugs
       Build Verification
@@ -96,10 +147,6 @@ mindmap
       Role Access
       Unauthorized Pages
       Session Timeout
-    Data Validation
-      Mandatory Fields
-      Duplicate Records
-      Import Export
 ```
 
 ---
@@ -144,6 +191,8 @@ flowchart LR
 | TC_CRM_002 | Leads | Verify lead creation | Open Leads, click Add Lead, enter required details, then save | Lead name, email, phone | New lead should be created | As expected | Pass |
 | TC_CRM_003 | Contacts | Verify mandatory field validation | Open Add Contact and submit without required fields | Blank required fields | Validation message should appear | As expected | Pass |
 | TC_CRM_004 | Opportunities | Verify stage update | Open Opportunity, change stage, then save | Opportunity record | Stage should update correctly | As expected | Pass |
+| TC_CRM_005 | Backend | Verify database update after lead creation | Create lead and verify database record | Lead data | Database should store correct lead details | As expected | Pass |
+| TC_CRM_006 | API | Verify invalid lead creation API request | Submit request with missing mandatory field | Invalid payload | API should return proper validation error | As expected | Pass |
 
 ---
 
@@ -203,6 +252,7 @@ Assigned To: Development Team
 | Browsers | Chrome, Firefox, Edge |
 | Devices | Desktop, Laptop, Mobile, Tablet |
 | Operating Systems | Windows, macOS, Android, iOS |
+| Backend Validation Tools | Postman, SQL Client, API Logs |
 | Network | Stable internet connection |
 
 ---
@@ -241,6 +291,9 @@ Assigned To: Development Team
 - Test Plan
 - Test Scenarios
 - Test Cases
+- Backend Validation Checklist
+- Frontend Validation Checklist
+- Functional Testing Checklist
 - Bug Reports
 - Regression Test Suite
 - Test Execution Summary
@@ -258,6 +311,12 @@ CRM-Product-Testing/
 │   └── CRM_Test_Plan.md
 ├── Test-Cases/
 │   └── CRM_Test_Cases.xlsx
+├── Backend-Validation/
+│   └── Backend_Validation_Checklist.md
+├── Frontend-Validation/
+│   └── Frontend_Validation_Checklist.md
+├── Functional-Testing/
+│   └── Functional_Testing_Checklist.md
 ├── Bug-Reports/
 │   └── CRM_Bug_Report_Template.md
 ├── Test-Scenarios/
@@ -275,13 +334,13 @@ CRM-Product-Testing/
 <div align="center">
 
 ![Manual Testing](https://img.shields.io/badge/Manual%20Testing-Experienced-FF6B6B?style=flat-square)
-![Functional Testing](https://img.shields.io/badge/Functional%20Testing-CRM%20Flows-4D96FF?style=flat-square)
-![Regression Testing](https://img.shields.io/badge/Regression%20Testing-Build%20Validation-6BCB77?style=flat-square)
-![UI Testing](https://img.shields.io/badge/UI%20Testing-Frontend%20Checks-F7B801?style=flat-square)
+![Backend Validation](https://img.shields.io/badge/Backend%20Validation-API%20%2B%20DB-00BBF9?style=flat-square)
+![Frontend Validation](https://img.shields.io/badge/Frontend%20Validation-UI%20Checks-4D96FF?style=flat-square)
+![Functional Testing](https://img.shields.io/badge/Functional%20Testing-CRM%20Flows-6BCB77?style=flat-square)
+![Regression Testing](https://img.shields.io/badge/Regression%20Testing-Build%20Validation-F7B801?style=flat-square)
 ![Bug Reporting](https://img.shields.io/badge/Bug%20Reporting-Jira%20Style-9B5DE5?style=flat-square)
 ![SQL](https://img.shields.io/badge/SQL-Data%20Validation-00BBF9?style=flat-square)
 ![Postman](https://img.shields.io/badge/Postman-API%20Testing-F15BB5?style=flat-square)
-![Agile QA](https://img.shields.io/badge/Agile%20QA-Sprint%20Testing-00F5D4?style=flat-square)
 
 </div>
 
@@ -293,7 +352,9 @@ This project demonstrates the ability to:
 
 - Understand CRM business workflows.
 - Create clear and reusable test documentation.
-- Validate frontend usability and responsiveness.
+- Validate backend APIs, database records, permissions, and business rules.
+- Validate frontend usability, responsiveness, layout, forms, and messages.
+- Execute functional CRM test scenarios from start to finish.
 - Identify functional, UI, data, and permission-related issues.
 - Communicate bugs with proper severity, priority, and reproduction steps.
 - Support release readiness through regression and test closure activities.
@@ -303,9 +364,8 @@ This project demonstrates the ability to:
 ## 👤 Author
 
 **Shashi Kant Singh**  
-QA Tester | CRM Product Testing | Software Quality Assurance
+QA Tester | Backend Validation | Frontend Validation | Functional Testing | CRM Product Testing
 
----
 
 <div align="center">
 
